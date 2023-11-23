@@ -1,0 +1,10 @@
+            - name: PagerDuty Change Events
+  # You may pin to the exact commit or the version.
+  # uses: PagerDuty/pagerduty-change-events-action@ec2c5d5cff79059924d663a7427733785626c3bf
+  uses: PagerDuty/pagerduty-change-events-action@v1.3.0
+  with:
+    # The integration key that identifies the service the change was made to.
+    integration-key: 
+    # Custom event summary. If provided the GitHub event type is ignored and the given summary used. A link to the run is included in the event.
+    custom-event: # optional
+          
